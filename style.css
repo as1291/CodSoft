@@ -1,0 +1,140 @@
+html {
+   min-height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+header{
+    height: 30px;
+}
+nav{
+  background-color: pink;
+  width: 100%;
+  height: 30px;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.nav_list{
+  text-align:end;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 0 70%;
+}
+.intro{
+  width: 100%;
+  height: 300px;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/002/949/141/small/programming-code-coding-or-hacker-background-vector.jpg) center;
+  background-size: cover;
+}
+.intro-lines{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* skills */
+.skillimg {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.skillimg {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skills {
+  padding: 1.25rem;
+}
+
+.skill-top {
+  background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kaW5nfGVufDB8fDB8fHww&w=1000&q=80);
+  background-size: cover;
+}
+
+.skills-text {
+  color: white;
+  text-decoration: ;
+}
+
+/* PROJECTS */
+.master-proj{
+  align-items: center;
+}
+.projects-sub{
+  border: solid 1px black;
+  /* border-radius: 5%; */
+  /* box-shadow: 10px 5px 5px grey; */
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 11px;
+  width: 200px;
+  height: 300px;
+  color: black;
+  /* box-shadow: 0 3px 10px var(--secondary-shadow); */
+}
+.projects-sub:hover{
+    transform: translateY(-0.25em);
+  box-shadow: 10px 5px 5px grey;
+    cursor: pointer ;
+}
+
+.projects {
+  /* margin: 10px 20 10px 50%; */
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 800px; */
+  align-items: center;
+  /* right: 50%; */
+}
+
+footer{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  background-color: #03045e;
+}
+.socials li{
+  list-style: none;
+  padding: 1rem;
+  align-items: center;
+  background-color: #03045e;
+}
+.sec-end {
+  width: 100%;
+  height: 50px;
+}
+.contacts{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #03045e;
+  margin: 25px 0 0 0;
+}
