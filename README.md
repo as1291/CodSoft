@@ -1,4 +1,4 @@
-# CodSoft
+#  Web-Based Portfolio
 This repository is dedicated to the project for the internship with CodSoft on web development.
 This project purely is based on front end web development.
 This web development portfolio project serves as a comprehensive showcase of my skills and expertise in the field of web development, with a particular emphasis on HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets). It's essentially a digital resume, designed to introduce visitors to my work, experience, and capabilities.
